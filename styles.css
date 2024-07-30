@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    margin: 0;
+}
+
+#clock {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    text-align: center;
+}
+
+#timer {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #777;
+}
+
+button:disabled {
+    background-color: #888;
+}
+
+.control-group {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.control-group div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
